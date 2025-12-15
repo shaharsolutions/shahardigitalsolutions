@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const formMessage = document.querySelector('#formMessage');
 
     // IMPORTANT: Replace this URL with your deployed Google Apps Script Web App URL
-    const SCRIPT_URL = 'INSERT_YOUR_GOOGLE_APPS_SCRIPT_URL_HERE'; 
+    const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwomNjxgyHEifJXYvsL__ABN8oOP7AOeHCQDTaFxVkdLeuHVMtCbgpSyISd01FGsjai/exec'; 
 
     form.addEventListener('submit', e => {
         e.preventDefault();
