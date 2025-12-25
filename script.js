@@ -42,6 +42,20 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
+    // --- Scroll Down Arrow Logic ---
+    const scrollArrow = document.querySelector('.scroll-down-arrow');
+    if (scrollArrow) {
+        scrollArrow.addEventListener('click', () => {
+             // Scroll to the next section (Audience Section)
+             const nextSection = document.getElementById('audience');
+             if (nextSection) {
+                 nextSection.scrollIntoView({ behavior: 'smooth' });
+             } else {
+                 window.scrollBy({ top: window.innerHeight * 0.8, behavior: 'smooth' });
+             }
+        });
+    }
+
     // --- Form Submission Logic ---
     const form = document.querySelector('#leadForm');
     const submitBtn = document.querySelector('#submitBtn');

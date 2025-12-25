@@ -1027,7 +1027,7 @@ img {
 /* Scroll Down Arrow */
 .scroll-down-arrow {
     position: absolute;
-    top: 30px; /* Adjust based on wave height */
+    bottom: 18vw; /* Positioned above the white wave (approx 15vw high) */
     left: 50%;
     transform: translateX(-50%);
     z-index: 20;
