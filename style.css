@@ -1023,3 +1023,29 @@ img {
     .card { padding: 1.5rem; }
     .glass-form { padding: 1.5rem; }
 }
+
+/* Scroll Down Arrow */
+.scroll-down-arrow {
+    position: absolute;
+    top: 30px; /* Adjust based on wave height */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 20;
+    color: var(--white);
+    font-size: 2rem;
+    animation: bounce 2s infinite;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateX(-50%) translateY(0);
+    }
+    40% {
+        transform: translateX(-50%) translateY(-10px);
+    }
+    60% {
+        transform: translateX(-50%) translateY(-5px);
+    }
+}
