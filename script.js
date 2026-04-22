@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const formMessage = document.querySelector('#formMessage');
 
     // IMPORTANT: Replace this URL with your deployed Google Apps Script Web App URL
-    const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzGDxzMDLj6iT1fDPsZcg9wKIQRFpqhiF9IAlrv4agc40q1CmxYhxOjkm1QFvkF6L0/exec'; 
+    const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzeySvlZrixadnHLaXoK7BwCtyLk3XwAsJZ4yc6gT4t-tfQiCA_icUJ8AtmiFGXk0Fz/exec'; 
 
     form.addEventListener('submit', e => {
         e.preventDefault();
